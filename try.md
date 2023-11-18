@@ -137,5 +137,5 @@ Note is permanently removed from the user's account and cannot be retrieved.
 User decides to not delete note
 1. System prompts user to with message asking to confirm deletion, with options yes or no
 2. User selects no from prompt
-1. User remains on edit note webpage
-2. Note remains unchanged and not deleted
+    1. User remains on edit note webpage
+    2. Note remains unchanged and not deleted
