@@ -27,7 +27,7 @@ User does not save changes to the note after translation
 4. Google translate API translates the text in the note, and sends it back to the application
 5. The text is then translated using the information provided by the google translate API.
 6. The user decides not to the save the note with the translated text
-1. The text is not saved, and the user returns back to the homepage
+    1. The text is not saved, and the user returns back to the homepage
 - **Alternate Sequence :**
 User tries to translate note from a language to the same language
 1. System prompts user to select the language to translate the note to
@@ -35,7 +35,7 @@ User tries to translate note from a language to the same language
 3. System utilizes the google translate API.
 4. Google translate API, makes no translation and informs the application of no new text
 5. The application makes no changes to the text
-1. The user has no new text to save
+    1. The user has no new text to save
 
 
 Meghana Indukuri
@@ -65,8 +65,8 @@ User tries to change existing personal information with the same information
 1. User selects which of their personal information they would like to modify
 2. User gets prompted with a textbox to change to a new username, password or name
 3. User enters the same username, password or name as the existing ones
-1. Application prompts user with an invalid password message
-2. User can enter a new password, username or name in the textbox
+    1. Application prompts user with an invalid password message
+    2. User can enter a new password, username or name in the textbox
 - **Alternate Sequence :**
 User decides to not change information
 1. User selects which of their personal information they would like to modify.
@@ -75,7 +75,7 @@ User decides to not change information
 4. User must repeat their new username,password or name in the textbox
 5. Application prompts the user with an “are you sure?” message
 6. User clicks no
-1. No changes are made to the user’s name, username or password
+    1. No changes are made to the user’s name, username or password
 
 Meghana Indukuri
 
@@ -103,15 +103,15 @@ User has a new table that is saved with the information they added while editing
 User enters invalid rows and columns for each table creation
 1. Web application prompts user to enter number of rows and columns
 2. User enters invalid row and column values
-1. Web application displays an error message
-2. User is prompted to enter correct row and column values
+    1. Web application displays an error message
+    2. User is prompted to enter correct row and column values
 - **Alternate Sequence :**
 User creates table with no note links
 1. Web application prompts user to enter number of rows and columns
 2. User selects wanted rows and columns
 3. Empty Table is created by web application
 4. User saves empty table
-1. Table is saved to the application under the user's account, but is empty containing no links to any existing notes.
+    1. Table is saved to the application under the user's account, but is empty containing no links to any existing notes.
 
 Meghana Indukuri
 
@@ -139,3 +139,4 @@ User decides to not delete note
 2. User selects no from prompt
     1. User remains on edit note webpage
     2. Note remains unchanged and not deleted
+
